@@ -32,22 +32,19 @@ Steps for installing LMEVE :
 	6. Registering with ccp
 	7. Finalization
 	
-1 install lmeve core : 
-    cd /var/www
-    sudo git clone https://github.com/roxlukas/lmeve
-    	  
-	  
-1 install lmeve dependancies : 
-
-  sudo apt-get install php-mysql php-pear apache2 libapache2-mod-php 
-            php-cli php-dev libyaml-dev php-mbstring 
-            python-yaml mysql-server mysql-client unzip
-  
+1 install lmeve core :  <br>
+    cd /var/www <br>
+    sudo git clone https://github.com/roxlukas/lmeve <br>
+    	   <br> <br>	  
+1 install lmeve dependancies :  <br>
+  sudo apt-get install php-mysql php-pear apache2 libapache2-mod-php  <br>
+            php-cli php-dev libyaml-dev php-mbstring  <br>
+            python-yaml mysql-server mysql-client unzip <br>
+   <br> <br>
 2 Configure Apache2 : <br>
-	sudo nano /etc/apache2/sites-enabled/000-default.conf
-	change DocumentRoot to : /var/www/lmeve/wwwroot
-	
-	  
+	sudo nano /etc/apache2/sites-enabled/000-default.conf <br>
+	change DocumentRoot to : /var/www/lmeve/wwwroot <br>
+	 <br> <br>	  
 3 Configure MySQL install : <br>
 	sudo mkdir /Incoming <br>
 	cd /Incoming <br>
@@ -65,8 +62,7 @@ Steps for installing LMEVE :
 	GRANT ALL PRIVILEGES ON `lmeve`.* TO 'lmeve'@'%';    		// Change % to your lmeve internal network address <br>
 	GRANT ALL PRIVILEGES ON `EveStaticData`.* TO 'lmeve'@'%'; // Change % to your lmeve internal network address <br>
 	FLUSH PRIVILEGES; <br>
- <br>
-      <br>
+ <br>      <br>
 5 install lmeve icons and graphics <br>
   //remove placeholder ccp icon and img folders, download image package <br>
     cd /var/www/lmeve/wwwroot <br>
@@ -74,11 +70,10 @@ Steps for installing LMEVE :
     cd /Incoming <br>
     sudo wget www.ash-online.net/lmevegfx/lmevegfx.tar.gz <br>
     sudo tar -zjvf lmevegfx.tar.gz -C / <br>
-		 <br> <br>
-    
+		 <br> <br>    
 6 Configure CCP Developer application using the lmeve sso config guide :  <br>
   https://github.com/roxlukas/lmeve/wiki/Integrating-LMeve-with-EVE-SSO <br>
- <br>
+ <br> <br>
 7 Finalize installation :  <br>
 	cd /var/www/lmeve/config <br>
 	sudo nano config-dist.php  <br>
