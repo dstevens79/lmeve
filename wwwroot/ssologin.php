@@ -1,18 +1,18 @@
 <?php
-set_include_path("../include");
+set_include_path("../Modules");
 date_default_timezone_set(@date_default_timezone_get());
 if (!is_file('../config/config.php')) die ($LANG['CONFIGERROR']);
 include_once('../config/config.php'); //load config file
-include_once("db.php");  //db access functions
-include_once("log.php");  //logging facility
-include_once('auth.php'); //authentication and authorization
-include_once("lang.php");  //translations
-include_once("menu.php");  //menu
-include_once("template.php");  //templates
-include_once("csrf.php");  //anti-csrf token implementation (secure forms)
-include_once('configuration.php'); //configuration settings in db
-include_once('hooks.php'); //hooks - login hook
-include_once("ssofunctions.php"); //SSO functions
+include_once("../Site_Core/csrf.php");  //db access functions
+include_once("../Site_Core/materials.php");  //logging facility
+include_once('../Site_Core/configuration.php'); //authentication and authorization
+include_once("../Site_Core/lang.php");  //translations
+include_once("../Site_Core/menu.php");  //menu
+include_once("../Site_Core/template.php");  //templates
+include_once("../Site_Core/log.php");  //anti-csrf token implementation (secure forms)
+include_once('../Modules/Inventory/inventory.php'); //configuration settings in db
+include_once('../Site_Core/configuration.php'); //hooks - login hook
+include_once("../Site_Core/ssofunctions.php"); //SSO functions
 
 if (!is_file('../config/config.php')) die('Config file not found.');
  

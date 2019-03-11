@@ -8,12 +8,12 @@ $mycache=$mypath."/../var";
 $mytmp=$mypath."/../tmp";
 
 date_default_timezone_set(@date_default_timezone_get());
-//set_include_path("$mypath/../include");
-include_once("$mypath/../include/log.php");
-include_once("$mypath/../include/db.php");
-include_once("$mypath/../include/configuration.php");
-include_once("$mypath/../include/killboard.php");
-include_once("$mypath/../include/dbcatalog.php");
+//set_include_path("$mypath/../Modules");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/configuration.php");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/log.php");
 
 function microtime_float()
 {

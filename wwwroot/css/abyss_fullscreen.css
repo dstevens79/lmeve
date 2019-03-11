@@ -1,5 +1,5 @@
 body {
-	background: url('../img/bg-abyss.jpg') #444 no-repeat;
+	background: url('../../Graphics/bg-abyss.jpg') #444 no-repeat;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;

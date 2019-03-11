@@ -11,7 +11,7 @@ $mycache=$mypath."/../var";
 $mytmp=$mypath."/../tmp";
 $MAX_ERRORS=10; //ignore first x errors
 
-include_once("$mypath/../config/config.php"); //API URLs are now in config.php
+include_once("../config/config.php"); //API URLs are now in config.php
 
 if (!isset($ESI_BASEURL)) {
     echo('WARNING: $ESI_BASEURL isn\'t set in config.php. Using default ESI API URL https://esi.evetech.net'  . "\r\n");
@@ -24,14 +24,14 @@ $FEED_BLOCKED="This feed is blocked due to previous errors.";
 $FEED_URL_PROBLEM="Can't get CREST url from CREST root.";
 
 date_default_timezone_set(@date_default_timezone_get());
-//set_include_path("$mypath/../include");
-include_once("$mypath/../include/log.php");
-include_once("$mypath/../include/db.php");
-include_once("$mypath/../include/dbcatalog.php");
-include_once("$mypath/../include/configuration.php");
-include_once("$mypath/../include/killboard.php");
+//set_include_path("$mypath/../Modules");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/configuration.php");
+include_once("../Site_Core/log.php");
 include_once('libpoller.php');       
-include_once("$mypath/../include/ssofunctions.php");
+include_once("../Site_Core/log.php");
 
 include_once('ESI.class.php');
 
@@ -40,6 +40,10 @@ include_once('ESI.class.php');
 $ESI = new ESI(5);
 echo("Testing\r\n");
 
-$ESI->Characters->addCharacter(245073304);
+//$ESI->Characters->addCharacter(245073304);
+
+//$ESI->Wallet->updateCorpWalletTransactions();
+
+$ESI->Status->updateServerStatus();
 
 ?>

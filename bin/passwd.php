@@ -1,8 +1,8 @@
 <?php
-//set_include_path("../include");
-include_once("../include/log.php");
-include_once("../include/db.php");
-include_once("../include/auth.php");
+set_include_path("../Site_Core");
+include_once("../Site_Core/log.php");
+include_once("../Modules/Database/database.php");
+include_once("../Site_Core/auth.php");
 
 global $USERSTABLE,$LM_DEFAULT_CSS;
 

@@ -1,21 +1,20 @@
 <?php
 //public killboard
 
-set_include_path("../include");
+set_include_path("../Modules");
 date_default_timezone_set(@date_default_timezone_get());
 include_once('../config/config.php'); //load config file
-include_once("db.php");  //db access functions
-include_once("log.php");  //logging facility
-include_once('auth.php'); //authentication and authorization
-include_once('menu.php'); //authentication and authorization
+include_once("../Site_Core/csrf.php");  //db access functions
+include_once("../Site_Core/materials.php");  //logging facility
+include_once('../Site_Core/configuration.php'); //authentication and authorization
+include_once('../Site_Core/menu.php'); //authentication and authorization
 
-include_once('materials.php'); //material related subroutines
-include_once('inventory.php'); //inventory and pos related subroutines
-include_once('killboard.php'); //inventory and pos related subroutines
+include_once('../Site_Core/materials.php'); //material related subroutines
+include_once('../Graphics/loader.png'); //inventory and pos related subroutines
+include_once("../Modules/Killboard/killboard.php"); //inventory and pos related subroutines
+include_once("../Site_Core/log.php");  //anti-csrf token implementation (secure forms)
 
-include_once("csrf.php");  //anti-csrf token implementation (secure forms)
-
-include_once('configuration.php'); //configuration settings in db
+include_once('../Modules/Inventory/inventory.php'); //configuration settings in db
 
 if($LM_FORCE_SSL && $_SERVER["HTTPS"] != "on")
 {
@@ -28,7 +27,7 @@ if (getConfigItem('publicKillboard')!='enabled') die('<h1>Public Killboard is di
 function page_kills() {
     global $LM_EVEDB;
     include_once('killboard.php');
-    include_once('inventory.php');
+    include_once('../Graphics/loader.png');
 
     $characterID=secureGETnum('characterID');
     $corporationID=secureGETnum('corporationID');
@@ -123,7 +122,7 @@ function page_kills() {
 function page_singlekill() {
     global $LM_EVEDB;
     include_once('killboard.php');
-    include_once('inventory.php');
+    include_once('../Graphics/loader.png');
 
     //submenu
         ?>
@@ -277,7 +276,7 @@ function template_public($contents,$title,$meta) {
 	</td></tr>
 	</table>
 	<?php
-	include("copyright.php");
+	include("../Site_Core/menu.php");
 	?>
 	<script type="text/javascript" src="<?=getUrl()?>resizer.js"></script>
 	</center>

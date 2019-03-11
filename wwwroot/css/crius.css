@@ -1,5 +1,5 @@
 body {
-	background: url('../img/crius-hero.jpg') #000000 no-repeat center top;
+	background: url('../../Graphics/crius-hero.jpg') #000000 no-repeat center top;
 	/*background-size: cover;*/
 	margin-top: 48px;
 }
@@ -264,7 +264,7 @@ img {
 }
 
 .lmframework th {
-	background: #4f4f4f url('../img/topic-sub-title-bg.gif') repeat-x bottom left;
+	background: #4f4f4f url('../../Graphics/topic-sub-title-bg.gif') repeat-x bottom left;
 	padding: 5px;
 }
 
@@ -280,7 +280,7 @@ img {
 }
 
 .lmeditor th {
-	background: #4f4f4f url('../img/topic-sub-title-bg.gif') repeat-x bottom left;
+	background: #4f4f4f url('../../Graphics/topic-sub-title-bg.gif') repeat-x bottom left;
 	padding: 5px;
 	width: 150px;
 	font-weight: normal;
@@ -295,7 +295,7 @@ img {
 }
 
 .tab-header {
-	background: #4f4f4f url('../img/topic-sub-title-bg.gif') repeat-x bottom left;
+	background: #4f4f4f url('../../Graphics/topic-sub-title-bg.gif') repeat-x bottom left;
 	padding: 5px;
 }
 

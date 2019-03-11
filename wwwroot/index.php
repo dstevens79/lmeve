@@ -39,24 +39,32 @@ mb_http_output('UTF-8');
 mb_http_input('UTF-8'); 
 mb_regex_encoding('UTF-8'); 
 
-set_include_path("../include");
 date_default_timezone_set(@date_default_timezone_get());
-if (!is_file('../config/config.php')) die('Config file not found.');
-include_once('../config/config.php'); //load config file
-if ($LM_DEBUG==TRUE) error_reporting(E_ALL ^ E_NOTICE); else error_reporting(0);
-include_once("db.php");  //db access functions
-include_once("log.php");  //logging facility
-include_once('auth.php'); //authentication and authorization
-include_once("lang.php");  //translations
-include_once("menu.php");  //menu
-include_once("template.php");  //templates
-include_once("csrf.php");  //anti-csrf token implementation (secure forms)
-include_once('configuration.php'); //configuration settings in db
-include_once('mobile.php'); //mobile device related functions
-include_once('hooks.php'); //hooks - login hook
 
-$lmver="0.1.59 beta";
- 
+
+	set_include_path("../Site_Core");
+	$included_files = get_included_files();	
+	include_once('../config/config.php'); //load config file
+
+
+		foreach (glob("../Site_Core/*.php") as $filename)
+			{
+			  if (!in_array($filename, $included_files)) { include_once($filename);			
+			}
+	if (!in_array("../Modules/Database/dbcatalog.php", $included_files)) 
+	{
+		 include_once('../Modules/Database/dbcatalog.php');
+	}
+
+			}
+
+#include_all_php("../Modules/config");
+
+if ($LM_DEBUG==TRUE) error_reporting(E_ALL ^ E_NOTICE); else error_reporting(0);
+		if (!is_file('../config/config.php')) die('Config file not found.');
+
+$lmver="0.1.6.001a Fusion-Beta";
+
 //setting session cookie params
 $param=session_get_cookie_params();
 session_set_cookie_params($LM_SESSION,$LM_COOKIEPATH,$param['domain'],$LM_COOKIESECUREONLY,true);

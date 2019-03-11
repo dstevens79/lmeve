@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".htaccess" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Assets.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Characters.class.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Contracts.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="copy-public.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958510766670462" remote="131958690600000000" Dst="1" />
+<file name="copy-public.sh" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Corporations.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="dbbackup.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958513809193606" remote="131958693600000000" Dst="1" />
+<file name="dbbackup.sh" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="esi-tests.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958518191480635" remote="131958699000000000" Dst="1" />
+<file name="ESI.class.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958599071555719" remote="131958783600000000" Dst="1" />
+<file name="Facilities.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Industry.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Killmails.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="libpoller.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958518190665647" remote="131958699000000000" Dst="1" />
+<file name="load_kills.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Markets.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="MemberTracking.class.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="old-bash-poller.sh.gz" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="passwd.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958668018013544" remote="131958849600000000" Dst="1" />
+<file name="poller-esi.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958518190020662" remote="131958699000000000" Dst="1" />
+<file name="poller-xml.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958518188360693" remote="131958699000000000" Dst="1" />
+<file name="poller.bat" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="poller.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958518188785692" remote="131958699000000000" Dst="1" />
+<file name="poller.sh" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="pollers.zip" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Route.class.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958518187300707" remote="131958699000000000" Dst="1" />
+<file name="Stations.class.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Status.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Universe.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="update_yaml.bat" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="update_yaml.php" server="192.168.100.111//var/www/lmeve-testing/" local="131958518509439608" remote="131958699000000000" Dst="1" />
+<file name="update_yaml.sh" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="Wallet.php" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+</dwsync>

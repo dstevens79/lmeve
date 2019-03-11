@@ -1,15 +1,15 @@
 <?php
 	date_default_timezone_set(@date_default_timezone_get());
-	//set_include_path("../include");
+	//set_include_path("../Modules");
         error_reporting(E_ALL ^ E_NOTICE);
         
         $mypath=str_replace('\\','/',dirname(__FILE__));
-	include_once("$mypath/../include/log.php");
-	include_once("$mypath/../include/db.php");
-	include_once("$mypath/../include/yaml_graphics.php");
-        include_once("$mypath/../include/yaml_skins.php");
-        include_once("$mypath/../include/yaml_certificates.php");
-        include_once("$mypath/../include/yaml_blueprints.php");
+	include_once("../Site_Core/log.php");
+	include_once("../Site_Core/log.php");
+	include_once("../Site_Core/log.php");
+        include_once("../Site_Core/log.php");
+        include_once("../Modules/Database/database.php");
+        include_once("../Modules/Database/database.php");
         
         $updateTypeIDs=FALSE;
         $updateGraphicIDs=FALSE;

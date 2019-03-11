@@ -1,13 +1,13 @@
 <?php
 $mypath = str_replace('\\', '/', dirname(__FILE__));
-include_once("$mypath/../config/config.php"); //API URLs are now in config.php
-//set_include_path("$mypath/../include");
-include_once("$mypath/libpoller.php");
-include_once("$mypath/../include/log.php");
-include_once("$mypath/../include/db.php");
-include_once("$mypath/../include/configuration.php");
-//include_once("$mypath/../include/killboard.php");
-include_once("$mypath/../include/ssofunctions.php");
+include_once("../config/config.php"); //API URLs are now in config.php
+//set_include_path("$mypath/../Modules");
+include_once("libpoller.php");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/configuration.php");
+//include_once("../Site_Core/log.php");
+include_once("../Site_Core/log.php");
 //ESI Routes:
 require_once('Corporations.php');
 require_once('Characters.class.php');
