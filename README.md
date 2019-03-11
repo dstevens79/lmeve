@@ -23,15 +23,15 @@ If you find a problem, please open an Issue on GitHub project page: https://gith
 <h1>Setup instructions</h1>
 
 
-Steps for installing LMEVE : 
-	1. install LmEvE core
-	2. install dependancies
-	3. configure apache2
-	4. configure sql
-	5. lmeve graphics
-	6. Registering with ccp
-	7. Finalization
-	
+Steps for installing LMEVE :  <br>
+	1. install LmEvE core <br>
+	2. install dependancies <br>
+	3. configure apache2 <br>
+	4. configure sql <br>
+	5. lmeve graphics <br>
+	6. Registering with ccp <br>
+	7. Finalization <br>
+	 <br> <br>
 1 install lmeve core :  <br>
     cd /var/www <br>
     sudo git clone https://github.com/roxlukas/lmeve <br>
