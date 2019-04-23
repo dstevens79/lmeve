@@ -119,7 +119,7 @@ function sub(editbox) {
                 s=ss-Math.round((n.getTime()-v.getTime())/1000.);
                 m=0;h=0;d=0;
                 if(s<0){
-                  czas.innerHTML="<b><img src=img/error.gif> 72 hours due.</b><br>"
+                  czas.innerHTML="<b><img src=../Graphics/error.gif> 72 hours due.</b><br>"
                 }else{
                   if(s>59){
                     m=Math.floor(s/60);
@@ -140,9 +140,9 @@ function sub(editbox) {
                     m="0"+m
                   }
 		  if (d>0) {
-		    czas.innerHTML="<img src=img/time.gif> Time left to complete: "+d+" dni "+h+"h "+m+"m "+s+"s<br>"	  
+		    czas.innerHTML="<img src=../Graphics/time.gif> Time left to complete: "+d+" dni "+h+"h "+m+"m "+s+"s<br>"	  
 		  } else {
-		    czas.innerHTML="<img src=img/time.gif> Time left to complete: "+h+"h "+m+"m "+s+"s<br>"	  
+		    czas.innerHTML="<img src=../Graphics/time.gif> Time left to complete: "+h+"h "+m+"m "+s+"s<br>"	  
 		  }
                 }
                 pp=pp-1;
@@ -152,7 +152,7 @@ function sub(editbox) {
 	function reloader(url,timer) {
 		timer2 = 1000 * timer;
 		window.setTimeout("window.location.reload()",timer2);
-		document.write('<img src="img/info.gif" alt="i"> Page reloads every '+timer+' seconds.<br>');
+		document.write('<img src="../Graphics/info.gif" alt="i"> Page reloads every '+timer+' seconds.<br>');
 	}
 
 	function gohref(url) {

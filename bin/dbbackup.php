@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set(@date_default_timezone_get());
-set_include_path("../include");
-include_once("log.php");
-include_once("db.php");
+set_include_path("../Modules");
+include_once("../Site_Core/log.php");
+include_once("../Modules/Database/database.php");
 
 $MYSQLDUMP='/usr/bin/mysqldump';
 $BACKUP='../backup';

@@ -6,20 +6,20 @@
 //api.php?key=<apikey>&endpoint=TASKS&characterID=<charID>
 //you can now use output=xml or output=json to format your data the way you need
 
-set_include_path("../include");
+set_include_path("../Modules");
 date_default_timezone_set(@date_default_timezone_get());
 include_once('../config/config.php'); //load config file
-include_once("db.php");  //db access functions
-include_once("log.php");  //logging facility
-include_once('auth.php'); //authentication and authorization
+include_once("../Site_Core/csrf.php");  //db access functions
+include_once("../Site_Core/materials.php");  //logging facility
+include_once('../Site_Core/configuration.php'); //authentication and authorization
 
-include_once('materials.php'); //material related subroutines
-include_once('tasks.php'); //task related subroutines
-include_once('inventory.php'); //inventory and pos related subroutines
+include_once('../Site_Core/materials.php'); //material related subroutines
+include_once('../Modules/Tasks/tasks.php'); //task related subroutines
+include_once('../Graphics/loader.png'); //inventory and pos related subroutines
 
-include_once("csrf.php");  //anti-csrf token implementation (secure forms)
+include_once("../Site_Core/log.php");  //anti-csrf token implementation (secure forms)
 
-include_once('configuration.php'); //configuration settings in db
+include_once('../Modules/Inventory/inventory.php'); //configuration settings in db
 
 if($LM_FORCE_SSL && $_SERVER["HTTPS"] != "on")
 {

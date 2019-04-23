@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".htaccess" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="cfgmarket.sql" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="fill_cfgmarket.sql" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="fitting_mask.xcf" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="graphicMaterialSets.yaml" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="schema-old.sql" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="schema-patch-contactlist.sql" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="schema.sql" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="sde-rename-camelcase.sql" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="YAML_data_dump_goes_here" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+<file name="sde-rename-lowercase.sql" server="192.168.100.111//var/www/lmeve-testing/" local="131956845120000000" remote="131958670800000000" Dst="1" />
+</dwsync>

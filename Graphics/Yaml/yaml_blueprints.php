@@ -1,6 +1,6 @@
 <?php
 //YAML - graphics related functions
-//include_once('../../Modules/spyc/Spyc.php');
+
 include_once('yaml_common.php');
 
 function updateYamlBlueprints($silent=true) {

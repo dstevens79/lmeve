@@ -7,9 +7,9 @@ $mycache=$mypath."/../var";
 $mytmp=$mypath."/../tmp";
 
 date_default_timezone_set(@date_default_timezone_get());
-set_include_path("$mypath/../include");
-include_once("log.php");
-include_once("db.php");
+set_include_path("$mypath/../Modules");
+include_once("../Site_Core/log.php");
+include_once("../Modules/Database/database.php");
 
 db_uquery('TRUNCATE TABLE `lmeve-public`.`apiprices`;');
 db_uquery('INSERT INTO `lmeve-public`.`apiprices` SELECT * FROM `lmeve`.`apiprices`;');

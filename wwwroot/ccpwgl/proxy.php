@@ -14,7 +14,7 @@
 //database schema for WebGL proxy cache
 //$LM_CCPWGL_CACHESCHEMA='lmeve-cache';
 include_once(dirname(__FILE__).'/../../config/config.php');
-include_once(dirname(__FILE__).'/../../include/db.php');
+include_once(dirname(__FILE__).'/../../Modules/database.php');
 
 function file_header($mime) {
     //browser cache

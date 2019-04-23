@@ -1,9 +1,9 @@
 <?php
 $mypath = str_replace('\\', '/', dirname(__FILE__));
-include_once("$mypath/../include/log.php");
-include_once("$mypath/../include/db.php");
-include_once("$mypath/../include/configuration.php");
-include_once("$mypath/../include/killboard.php");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/log.php");
+include_once("../Site_Core/configuration.php");
+include_once("../Site_Core/log.php");
 
 include_once('ESI.class.php');
 

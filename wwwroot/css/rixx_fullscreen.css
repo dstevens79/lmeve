@@ -349,7 +349,7 @@ img {
 }
 
 .tab-main {
-	background: url('../img/today-robotics_rixx.jpg') #0e1e28 no-repeat center top;
+	background: url('../../Graphics/today-robotics_rixx.jpg') #0e1e28 no-repeat center top;
 	box-shadow: rgba(0,0,0,0.2) 3px 3px 6px 3px inset;
 	padding: 5px 20px 20px 20px;
     /*background: rgba(7,25,28,0.75);*/

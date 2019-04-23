@@ -27,7 +27,7 @@ function ajax_get(URL,hookID) {
 function get_next(URL,tableRef,loaderRef,callback,offset,rowcount,length) {
     //console.log('get_next() offset='+offset);
     loaderRef.style.display = "block";
-    loaderRef.innerHTML = "<em><img src=\"img/loader.png\" /> Loading "+offset+" of "+length+"...</em>";
+    loaderRef.innerHTML = "<em><img src="../Graphics/loader.png" /> Loading "+offset+" of "+length+"...</em>";
     $.ajax({
         url: URL+'&offset='+offset,
         success: function(data) {
@@ -43,7 +43,7 @@ function get_next(URL,tableRef,loaderRef,callback,offset,rowcount,length) {
         }
     });
 }
-
+asd
 function ajax_append_table(URL, tableID, loaderID, callback) {
         if(typeof(tableID)==='undefined') tableID = 'NULL';
 

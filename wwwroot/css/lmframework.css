@@ -253,7 +253,7 @@ img {
 }
 
 .lmframework th {
-	background: url('../img/gradient3.png');
+	background: url('../../Graphics/gradient3.png');
 	background-repeat: repeat-x;
 	background: #abbcd1;
 	padding: 5px;
@@ -272,7 +272,7 @@ img {
 }
 
 .lmeditor th {
-	background: url('../img/gradient3.png');
+	background: url('../../Graphics/gradient3.png');
 	background-repeat: repeat-x;
 	background: #abbcd1;
 	padding: 5px;
@@ -288,7 +288,7 @@ img {
 }
 
 .tab-header {
-	background: url('../img/gradient3.png');
+	background: url('../../Graphics/gradient3.png');
 	background-repeat: repeat-x;
 	background-color: #abbcd1;
 	padding: 5px;
@@ -311,13 +311,13 @@ img {
 
 .login {
 	background-color: #85a5cf;
-	background: url('../img/bg.gif');
+	background: url('../../Graphics/bg.gif');
 	padding: 10px;
 }
 
 .tab-horizbar {
 	color: #ffffff;
-	background: url('../img/gradient.png');
+	background: url('../../Graphics/gradient.png');
 	background-color: #85a5cf;
 }
 
@@ -331,7 +331,7 @@ img {
 }
 
 .tab-links {
-	background: url('../img/gradient2.png');
+	background: url('../../Graphics/gradient2.png');
 	background-repeat: repeat-x;
 	background-color: #abbcd1;
 }
@@ -339,7 +339,7 @@ img {
 .tab-main {
     BORDER-RIGHT: #85a5cf 3px solid;
     BORDER-TOP: #85a5cf 0px solid;
-    BACKGROUND: url(../img/stumbler.png) #ffffff no-repeat right bottom;
+    BACKGROUND: url(../../Graphics/stumbler.png) #ffffff no-repeat right bottom;
     BORDER-LEFT: #85a5cf 0px solid;
     BORDER-BOTTOM: #85a5cf 0px solid;
     padding: 5px 20px 20px 20px;
@@ -363,7 +363,7 @@ img {
 }
 
 .today {
-	background: url('../img/today.jpg');
+	background: url('../../Graphics/today.jpg');
 	background-color: #abbcd1;
 }
 
